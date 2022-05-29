@@ -110,21 +110,22 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
 
     if len(qualifying_loans) == 0:
         sys.exit("There are no qualifying loans available to you.")
     else:
-        output_file = questionary.text("Would you like to save your results? Enter 'no' to opt out:").ask()
+        output_file = questionary.text(
+            "Would you like to save your results? Enter 'no' to opt out:"
+            ).ask()
                                         
         if output_file == "no":
             sys.exit("You've chosen not to create an output file of qualifying loans.")
         else:
-            csvpath_1 = Path("data")  # store output file in data folder.
+            csvpath_1 = Path("data")  # store output file in data folder by default
             csvpath_2 = questionary.text("Enter a file name (.csv):").ask()
             csvpath_2 = Path(csvpath_2)
             csvpath = csvpath_1.joinpath(csvpath_2)
+            print("Writing the data to a CSV file in the data folder...")
             save_csv(csvpath, qualifying_loans)
 
 

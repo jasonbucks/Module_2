@@ -39,5 +39,7 @@ def save_csv(csvpath, qualifying_loans):
 
     with open(csvpath, 'w', newline = '') as csvfile:
         csvwriter = csv.writer(csvfile)
+
+        # add a line for each qualifying bank loan info
         for row in qualifying_loans:
             csvwriter.writerow(row)
