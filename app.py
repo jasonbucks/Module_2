@@ -114,8 +114,9 @@ def save_qualifying_loans(qualifying_loans):
     if len(qualifying_loans) == 0:
         sys.exit("There are no qualifying loans available to you.")
     else:
-        output_file = questionary.text(
-            "Would you like to save your results? Enter 'no' to opt out:"
+        output_file = questionary.select(
+            "Would you like to save your results?",
+            choices = ["yes", "no"]
             ).ask()
                                         
         if output_file == "no":
