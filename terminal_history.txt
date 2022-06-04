@@ -1,953 +1,3 @@
-   50  cd git
-   51  cd prework_repo
-   52  ls
-   53  git add -A
-   54  git commit -m "Added an index.html file"
-   55  git push origin master
-   56  git push origin main
-   57  git checkout -b header
-   58  git add -A
-   59  git commit -m "Adds a header to Index.html"
-   60  git push origin header
-   61  git checkout master
-   62  git checkout main
-   63  git pull
-   64  cd
-   65  cd
-   66  conda create --name snowflakes biopython
-   67  conda activate snowflakes
-   68  conda info --envs
-   69  conda activate
-   70  conda info --envs
-   71  conda create --name snakes python=3.9
-   72  conda activate snakes
-   73  conda info --envs
-   74  python --version
-   75  conda activate
-   76  conda activate snakes
-   77  conda search beautifulsoup4
-   78  conda install beautifulsoup4
-   79  conda list
-   80  conda activate
-   81  conda activate dev
-   82  jupyter lab
-   83  conda deactivate
-   84  conda activate dev
-   85  jupyter lab
-   86  conda deactivate
-   87  homebrew
-   88  search homebrew
-   89  ls
-   90  brew help
-   91  path
-   92  echo
-   93  echo 'eval "(/opt/homebrew/bin/brew shellenv)"'
-   94  eval "$(/opt/homebrew/bin/brew shellenv)"
-   95  brew help
-   96  echo 'eval "(/opt/homebrew/bin/brew shellenv)"' >> /jasonbuckholt/.zprofi
-   97  brew help
-   98  brew info
-   99  brew list
-  100  brew doctor
-  101  xcode
-  102  brew help
-  103  brew doctor
-  104  xcode --version
-  105  xcode-select --install
-  106  xcode-select --version
-  107  xcode-select --update
-  108  git --version
-  109  git --update
-  110  git config --global user.name "jasonbucks"
-  111  mkdir git_practice
-  112  ls
-  113  cd git_practice
-  114  git
-  115  ls
-  116  git init
-  117  git status
-  118  git add .
-  119  git status
-  120  git commit -m "Started project."
-  121  git config --global user.email jbuckholt@protonmail.com
-  122  git commit --amend --reset-author
-  123  cd git_practice
-  124  git status
-  125  git add .
-  126  git status
-  127  git commit -m "Started project."
-  128  ls
-  129  git status
-  130  git add .
-  131  git status
-  132  git init
-  133  git status
-  134  cd git_practice
-  135  git init
-  136  git status
-  137  git log
-  138  /usr/bin/python3 /Users/jasonbuckholt/git_practice/hello_git.py
-  139  /usr/bin/python3 /Users/jasonbuckholt/git_practice/hello_git.py
-  140  cd git_practice
-  141  git init
-  142  git status
-  143  git add .
-  144  git status
-  145  git commit -m "Starting project."
-  146  git status
-  147  git log
-  148  git status
-  149  git commit -am "Extended greeting."
-  150  git status
-  151  git log --pretty=oneline
-  152  git status
-  153  git checkout .
-  154  git status
-  155  git restore b0ea83
-  156  git checkout b0ea83
-  157  git checkout master
-  158  git status
-  159  git log --pretty=oneline
-  160  git reset --hard b0ea83
-  161  git status
-  162  git log --pretty=oneline
-  163  git status
-  164  rm -rf .git
-  165  git status
-  166  git init
-  167  git status
-  168  git add .
-  169  git commit -m "Starting over."
-  170  git status
-  171  /usr/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  172  /usr/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  173  python3 --version
-  174  brew install python3
-  175  python3 --version
-  176  brew install matplotlib
-  177  python3 -m pip install --user matplotlib
-  178  python3 -m pip install --upgrade pip
-  179  python3 -m pip install matplotlib
-  180  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  181   /usr/bin/env /usr/local/bin/python3 /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/launcher 53744 -- /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py 
-  182  python --version
-  183  python -m pip install --user matplotlib
-  184  python3 -m pip install --user matplotlib
-  185  python3 mpl_squares.py
-  186  cd desktop
-  187  cd python_work
-  188  python3 mpl_squares.py
-  189  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  190  python3 -m pip install --user matplotlib
-  191  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  192  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  193  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  194  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  195  plt.style.available
-  196  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/mpl_squares.py
-  197  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  198  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  199  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  200  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  201  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  202  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  203  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  204  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  205  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  206  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  207  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  208  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/scatter_squares.py
-  209  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  210  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  211  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  212  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  213  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  214  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  215  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_1.py
-  216  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  217  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  218  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  219  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  220  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  221  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  222  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  223  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  224  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  225  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  226  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  227  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_3.py
-  228  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_3.py
-  229  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_3.py
-  230  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_4
-  231  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_4
-  232  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_5.py
-  233  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_5.py
-  234  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_5.py
-  235  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_5.py
-  236  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_5.py
-  237   /usr/bin/env /usr/local/bin/python3 /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/launcher 54096 -- /Users/jasonbuckholt/Desktop/python_work/random_walk.py 
-  238   cd /Users/jasonbuckholt/Desktop ; /usr/bin/env /usr/local/bin/python3 /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/launcher 54103 -- /Users/jasonbuckholt/Desktop/python_work/random_walk.py 
-  239   cd /Users/jasonbuckholt/Desktop ; /usr/bin/env /usr/local/bin/python3 /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/launcher 54111 -- /Users/jasonbuckholt/Desktop/python_work/random_walk.py 
-  240  cd desktop
-  241  cd python_work
-  242  git init
-  243  git status
-  244  git add mpl_squares.py
-  245  git status
-  246  git commit -m "Step 1"
-  247  git status
-  248  git status
-  249  git commit -am "Changing label type and line thickness"
-  250  git status
-  251  git log --pretty=oneline
-  252  git commit -am "Correcting the plot"
-  253  git commit -am "Using seaborn style"
-  254  rm -rf .git
-  255  git status
-  256  python3
-  257  https://matplotlib.org/
-  258  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  259  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  260  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  261  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  262  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  263  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  264  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/die_visual.py
-  265  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/dice_visual.py
-  266  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/dice_visual.py
-  267  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/dice_visual.py
-  268  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  269  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  270  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  271  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  272  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  273  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  274  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  275  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  276  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  277  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  278  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_6.py
-  279  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_7.py
-  280  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_8.py
-  281  python3 -m pip install --user plotly
-  282  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_9.py
-  283  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_rw_plotly.py
-  284  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_rw_plotly.py
-  285  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_rw_plotly.py
-  286  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_rw_plotly.py
-  287  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  288  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  289  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  290  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  291  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  292  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  293  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  294  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  295  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  296  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  297  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  298  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  299  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  300  plt.style.available
-  301  matplotlib.style.available
-  302  import matplotlib.pyplot.style.available
-  303  matplotlib.pyplot.style.available
-  304  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  305  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  306  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  307  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  308  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py
-  309   /usr/bin/env /usr/local/bin/python3 /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/launcher 54683 -- /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py 
-  310   /usr/bin/env /usr/local/bin/python3 /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/launcher 54691 -- /Users/jasonbuckholt/Desktop/python_work/15_10_dice_mpl.py 
-  311  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/rw_visual.py
-  312  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  313  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  314  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  315  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  316  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  317  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  318  python3 sitka_highs.py
-  319  cd desktop
-  320  cd python_work
-  321  python3 sitka_highs.py
-  322  python3 sitka_highs.py
-  323  cd desktop
-  324  cd python_work
-  325  python3 sitka_highs.py
-  326  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  327  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  328  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  329  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs.py
-  330  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs_lows.py
-  331  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_highs_lows.py
-  332  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/death_valley_highs_lows.py
-  333  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/death_valley_highs_lows.py
-  334  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/death_valley_highs_lows.py
-  335  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/death_valley_highs_lows.py
-  336  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/death_valley_highs_lows.py
-  337  python3 -m install --user plotly
-  338  python3 -m pip install --user plotly
-  339  conda activate dev
-  340  jupyter lab
-  341  conda deactivate
-  342  conda activate dev
-  343  jupyter lab
-  344  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_precip.py
-  345  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_precip.py
-  346  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/death_valley_precip.py
-  347  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_v_death_valley_highs_lows.py
-  348  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/sitka_v_death_valley_highs_lows.py
-  349  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_v_sitka_v_death_valley_highs_lows.py
-  350  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_v_sitka_v_death_valley_highs_lows.py
-  351  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_highs_lows.py
-  352  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_highs_lows.py
-  353  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_highs_lows.py
-  354  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_highs_lows.py
-  355  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/seattle_highs_lows.py
-  356  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_explore_data.py
-  357  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_explore_data.py
-  358  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_explore_data.py
-  359  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  360  /usr/local/bin/python3
-  361  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  362  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  363  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  364  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/show_color_scales.py
-  365  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  366  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  367  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  368  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  369  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  370  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/eq_world_map.py
-  371  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  372  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  373  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  374  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  375  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  376  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  377  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  378  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  379  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  380  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  381  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  382  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  383  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  384  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  385  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/fires_world_map.py
-  386  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  387  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  388  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  389  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  390  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  391  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  392  python3 -m pip install --user requests
-  393  requests --version
-  394  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  395  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  396  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  397  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/python_repos.py
-  398  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/hn_article.py
-  399  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  400  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  401  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  402  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  403  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/R_repos.py
-  404  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  405  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  406  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/data/hn_submissions.py
-  407  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/hn_submissions_visual.py
-  408  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/hn_submissions_visual.py
-  409  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/test_python_repos.py
-  410  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/testable_python_repos.py
-  411  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/testable_python_repos.py
-  412  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/testable_python_repos.py
-  413  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/testable_python_repos.py
-  414  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/testable_python_repos.py
-  415  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/test_python_repos.py
-  416  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/test_python_repos.py
-  417  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/test_python_repos.py
-  418  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/test_python_repos.py
-  419  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/testable_python_repos.py
-  420  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/test_python_repos.py
-  421  pip install django
-  422  conda activate dev
-  423  pip install django
-  424  django-admin startproject learning_log .
-  425  ls
-  426  ls learning_log
-  427  python3 manage.py migrate
-  428  ls
-  429  python manage.py runserver
-  430  python -m venv 11_env
-  431  deactivate
-  432  python manage.py runserver
-  433  ls
-  434  python manage.py runserver
-  435  ls
-  436  ls learning_log/
-  437  python manage.py startapp learning_logs
-  438  ls
-  439  ls learning_logs/
-  440  python manage.py makemigrations learning_logs
-  441  python manage.py migrate
-  442  python manage.py createsuperuser
-  443  python manage.py runserver
-  444  python manage.py makemigrations learning_logs
-  445  python manage.py migrate
-  446  python manage.py shell
-  447  python manage.py runserver
-  448  pip install django
-  449  django-admin startproject pizzeria .
-  450  ls
-  451  ls pizzeria
-  452  python manage.py migrate
-  453  ls
-  454  python manage.py runserver
-  455  ls
-  456  python manage.py startapp pizzas
-  457  ls
-  458  ls pizzas
-  459  python manage.py makemigrations pizzas
-  460  python manage.py migrate
-  461  python manage.py createsuperuser
-  462  python manage.py shell
-  463  pip install django
-  464  django-admin startproject pizzeria .
-  465  ls
-  466  ls pizzeria
-  467  python manage.py migrate
-  468  ls
-  469  python manage.py runserver
-  470  ls
-  471  python manage.py startapp pizzas
-  472  ls
-  473  ls pizzas
-  474  python manage.py makemigrations pizzas
-  475  python manage.py migrate
-  476  python manage.py createsuperuser
-  477  python manage.py shell
-  478  python manage.py runserver
-  479  python manage.py runserver
-  480  cd learning_logs
-  481  mkdir templates
-  482  ls
-  483  cd templates
-  484  mkdir learning_logs
-  485  ls
-  486  cd
-  487  cd desktop/learning_log
-  488  python manage.py runserver
-  489  python manage.py runserver
-  490  python manage.py runserver
-  491  python manage.py runserver
-  492  python manage.py runserver
-  493  python manage.py startapp users
-  494  \ls
-  495  ls users
-  496  cd users
-  497  mkdir templates
-  498  cd templates
-  499  mkdir registration
-  500  python manage.py runserver
-  501  python manage.py runserver
-  502  python manage.py runserver
-  503  python manage.py runserver
-  504  python manage.py shell
-  505  python manage.py makemigration learning_logs
-  506  python manage.py makemigrations learning_logs
-  507  python manage.py migrate
-  508  python manage.py shell
-  509  python manage.py runserver
-  510  pip install django-bootstrap4
-  511  pip install psycopg2-binary
-  512  pip install django-heroku
-  513  pip install gunicorn
-  514  pip freeze > requirements.txt
-  515  python --version
-  516  git --version
-  517  git init
-  518  git add .
-  519  git commit -am "Ready for deployment to heroku."
-  520  git status
-  521  heroku login
-  522  heroku create
-  523  git push heroku master
-  524  rm -rf .git
-  525  git status
-  526  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/hello.py
-  527  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/hello.py
-  528  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/hello.py
-  529  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/basic/wordcount.py
-  530  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/basic/mimic.py
-  531  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames1.py
-  532  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames1.py
-  533  /.babynames.py
-  534  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames1.py
-  535  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames1.py
-  536  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames1.py
-  537  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames1.py
-  538  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames2.py
-  539  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames3.py
-  540  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/babynames/babynames4.py
-  541  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/copyspecial/copyspecial.py
-  542  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/copyspecial/copyspecial.py
-  543  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/copyspecial/copyspecial.py
-  544  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/copyspecial/copyspecial.py
-  545  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/google-python-exercises/copyspecial/copyspecial.py
-  546  conda activate dev
-  547  jupyter lab
-  548  conda deactivate
-  549  conda activate dev
-  550  jupyter lab
-  551  conda deactivate
-  552  conda activate dev
-  553  jupyter lab
-  554  conda deactivate
-  555  python3 -m install --user requests
-  556  python3 -m pip install --user requests
-  557  requests --version
-  558  python3 -version
-  559  jupyter lab
-  560  cd desktop
-  561  mkdir learning_log
-  562  cd learning_log
-  563  conda activate dev
-  564  jupyter lab
-  565  conda deactivate
-  566  ls
-  567  conda activate dev
-  568  jupyter lab
-  569  conda deactivate
-  570  cd..
-  571  cd desktop
-  572  python3 -m venv 11_env
-  573  source ll_env/bin/activate
-  574  source 11_env/bin/activate
-  575  python manage.py runserver
-  576  pip install django==2.2.*
-  577  pip install django
-  578  django-admin startproject learning_log .
-  579  ls
-  580  deactivate
-  581  conda activate dev
-  582  jupyter lab
-  583  conda deactivate
-  584  cd
-  585  ls
-  586  cd desktop
-  587  mkdir pizzeria
-  588  cd pizzeria
-  589  conda activate dev
-  590  jupyter lab
-  591  conda deactivate
-  592  cd
-  593  cd desktop
-  594  cd learning_log
-  595  conda activate dev
-  596  jupyter lab
-  597  conda deactivate
-  598  conda activate dev
-  599  jupyter lab
-  600  conda deactivate
-  601  conda activate dev
-  602  jupyter lab
-  603  conda deactivate
-  604  conda activate dev
-  605  jupyter lab
-  606  conda deactivate
-  607  conda activate dev
-  608  jupyter lab
-  609  jupyter lab
-  610  conda deactivate
-  611  conda activate dev
-  612  jupyter lab
-  613  conda deactivate
-  614  conda activate dev
-  615  jupyter lab
-  616  conda deactivate
-  617  brew tap heroku/brew && brew install heroku
-  618  conda activate dev
-  619  jupyter lab
-  620  conda deactivate
-  621  conda env list
-  622  conda activate dev
-  623  conda init zsh
-  624  echo #{SHELL}
-  625  python -m ipykernel install --user --name dev
-  626  conda install -c conda-forge nodejs
-  627  jupyter lab
-  628  conda deactivate
-  629  cd desktop
-  630  cd..
-  631  cd
-  632  cd google-python-exercises
-  633  cd desktop/google-python-exercises
-  634  python3 hello.py
-  635  python3 hello.py Jason
-  636  python
-  637  cd basic
-  638  python3 string1.py
-  639  python3 string1.py
-  640  python3 string1.py
-  641  python3 string1.py
-  642  python3 string1.py
-  643  python3 string1.py
-  644  python3 string1.py
-  645  python3 string1.py
-  646  python3 string1.py
-  647  python3 string1.py
-  648  python3 string1.py
-  649  python3 string1.py
-  650  python3 string1.py
-  651  python3 string1.py
-  652  python3 string1.py
-  653  python3 string2.py
-  654  python3 string2.py
-  655  python3 string2.py
-  656  python3 string2.py
-  657  python3
-  658  python3 string2.py
-  659  python3
-  660  python3 string2.py
-  661  python3 string2.py
-  662  python3 string2.py
-  663  python3
-  664  python3 string2.py
-  665  python3 string2.py
-  666  python3
-  667  python3 string2.py
-  668  python3
-  669  python3 list1.py
-  670  python3 list1.py
-  671  python3
-  672  python3 list1.py
-  673  python3
-  674  python3 list1.py
-  675  python3 list1.py
-  676  python3 list1.py
-  677  python3 list1.py
-  678  python3 list1.py
-  679  python3 list2.py
-  680  python3 list2.py
-  681  python3 list2.py
-  682  python3 list2.py
-  683  python3 wordcount.py
-  684  python3 wordcount.py
-  685  python3 wordcount.py --count
-  686  python3 wordcount.py --count alice.txt
-  687  python3 wordcount.py --junk alice.txt
-  688  python3
-  689  python3 wordcount.py --count alice.txt
-  690  python3 wordcount.py --count alice.txt
-  691  python3 wordcount.py --count alice.txt
-  692  python3 wordcount.py --count alice.txt
-  693  python3
-  694  python3 wordcount.py --count alice.txt
-  695  python3 wordcount.py --count alice.txt
-  696  python3 wordcount.py --count alice.txt
-  697  python3 wordcount.py --count alice.txt
-  698  python3 wordcount.py --count alice.txt
-  699  python3 wordcount.py --count alice.txt
-  700  python3 wordcount.py --topcount alice.txt
-  701  python3 mimic.py alice.txt
-  702  python3 mimic.py alice.txt
-  703  cd ..
-  704  cd babynames
-  705  python3 babynames1.py --summaryfile baby1990.html
-  706  python3 babynames1.py --summaryfile baby1990.html
-  707  text
-  708  python3 babynames1.py --summaryfile baby1990.html
-  709  python3 babynames1.py baby1990.html
-  710  python3 babynames1.py baby1990.html
-  711  python3 babynames1.py baby1990.html
-  712  python3 babynames1.py baby1990.html
-  713  python3 babynames1.py --summaryfile baby1990.html
-  714  python3
-  715  python3 babynames1.py
-  716  python3 babynames1.py baby1990.html
-  717  python3
-  718  python3 babynames4.py baby1990.html
-  719  python3 babynames4.py --summaryfile baby1990.html
-  720  python3 babynames4.py --summaryfile baby1992.html
-  721  python3 babynames4.py --summaryfile baby1994.html
-  722  python3 babynames4.py --summaryfile baby1996.html
-  723  python3 babynames4.py --summaryfile baby1998.html
-  724  python3 babynames4.py --summaryfile baby2000.html
-  725  python3 babynames4.py --summaryfile baby2002.html
-  726  python3 babynames4.py --summaryfile baby2004.html
-  727  python3 babynames4.py --summaryfile baby2006.html
-  728  python3 babynames4.py --summaryfile baby2008.html
-  729  python3 babynames4.py --summaryfile baby1992.html
-  730  python3 babynames4.py --summaryfile baby1992.html
-  731  python3 babynames4.py --summaryfile baby1992.html
-  732  python3 babynames4.py --summaryfile baby1994.html
-  733  python3 babynames4.py --summaryfile baby1996.html
-  734  python3 babynames4.py --summaryfile baby1998.html
-  735  python3 babynames4.py --summaryfile baby2000.html
-  736  python3 babynames4.py --summaryfile baby2002.html
-  737  python3 babynames4.py --summaryfile baby2004.html
-  738  python3 babynames4.py --summaryfile baby2006.html
-  739  python3 babynames4.py --summaryfile baby2008.html
-  740  python3
-  741  python3
-  742  cd ..
-  743  python3 copyspecial.py --todir copyspecial
-  744  python3 copyspecial/copyspecial.py --todir copyspecial
-  745  cd copyspecial
-  746  python3 copyspecial.py .
-  747  python3 copyspecial.py --todir .
-  748  python3 copyspecial.py --todir /tmp
-  749  python3 copyspecial.py --todir /tmp .
-  750  python3 copyspecial.py --todir /tmp
-  751  python3 copyspecial.py --todir /tmp
-  752  python3 copyspecial.py --todir /tmp .
-  753  cd tmp
-  754  python3 copyspecial.py --todir /tmp  .
-  755  cd tmp
-  756  python3 copyspecial.py --tozip
-  757  cd ..
-  758  ls
-  759  cd python_work
-  760  python3
-  761  ls
-  762  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/min_max.py
-  763  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/python_work/min_max.py
-  764  code .
-  765  py -0
-  766  python3 -0
-  767  python -0
-  768  source /Users/jasonbuckholt/anaconda3/bin/activate
-  769  conda activate base
-  770   /usr/bin/env /Users/jasonbuckholt/anaconda3/bin/python /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.6.2/pythonFiles/lib/python/debugpy/launcher 50060 -- /Users/jasonbuckholt/Desktop/hello/hello.py 
-  771   cd /Users/jasonbuckholt/Desktop/hello ; /usr/bin/env /Users/jasonbuckholt/anaconda3/bin/python /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.6.2/pythonFiles/lib/python/debugpy/launcher 50071 -- /Users/jasonbuckholt/Desktop/hello/hello.py 
-  772   cd /Users/jasonbuckholt/Desktop/hello ; /usr/bin/env /Users/jasonbuckholt/anaconda3/bin/python /Users/jasonbuckholt/.vscode/extensions/ms-python.python-2022.6.2/pythonFiles/lib/python/debugpy/launcher 50179 -- /Users/jasonbuckholt/Desktop/hello/standardplot.py 
-  773  source /Users/jasonbuckholt/anaconda3/bin/activate
-  774  conda activate base
-  775  /Users/jasonbuckholt/anaconda3/bin/python /Users/jasonbuckholt/Desktop/hello/hello.py
-  776  /Users/jasonbuckholt/anaconda3/bin/python /Users/jasonbuckholt/Desktop/hello/standardplot.py
-  777  cd ..
-  778  cd ..
-  779  cd python_work
-  780  python3
-  781  python3 fibo.py 1000
-  782  python3 fibo.py 50
-  783  python3 fibo.py 1000
-  784  sys.path
-  785  python3
-  786  python3
-  787  ls
-  788  min_max.py --gt [1, 4, 55, 3, 8, 9, 22]
-  789  min_max.py --gt [1, 4, 55, 3, 8, 9, 22]
-  790  min_max.py --gt (1, 4, 55, 3, 8, 9, 22)
-  791  min_max.pu (args = [1, 2, 3, 4, 5, 6], operator=gt)
-  792  min_max.py (args = [1, 2, 3, 4, 5, 6], operator=gt)
-  793  python3 min_max.py (args = [1, 2, 3, 4, 5, 6], operator=gt)
-  794  python3 min_max.py args = [1, 2, 3, 4, 5, 6], operator=gt
-  795  python3 min_max.py
-  796  python3 min_max.py 1, 4, 7
-  797  python3 min_max.py 1 2 3 5 88 5
-  798  python3 min_max.py 1 2 3 5 88 5, gt
-  799  python3 --version
-  800  cd ..
-  801  mkdir hello
-  802  cd hello
-  803  code .
-  804  conda code .
-  805  ls *code.*
-  806  conda activate dev
-  807  code .
-  808  code  .
-  809  code
-  810  vscode
-  811  jupyter lab
-  812  conda deactivate
-  813  code .
-  814  code .
-  815  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  816  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Conditional_Statement/Unsolved/conditional_statement.py
-  817  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Conditional_Statement/Unsolved/conditional_statement.py
-  818  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Conditional_Statement/Unsolved/conditional_statement.py
-  819  conda activate dev
-  820  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Conditional_Statement/Unsolved/conditional_statement.py
-  821  python --version
-  822  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
-  823  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
-  824  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
-  825  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
-  826  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
-  827  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  828  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  829  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  830  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  831  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  832  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  833  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  834  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  835  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  836  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  837  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
-  838  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  839  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  840  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  841  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  842  python
-  843  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/scream.py
-  844  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/scream.py
-  845  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/scream.py
-  846  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/scream.py
-  847  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_A_Definitive_Buy/Unsolved/a_definitive_buy.py
-  848  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Returned_Goods/Unsolved/returned_goods.py
-  849  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Returned_Goods/Unsolved/returned_goods.py
-  850  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Returned_Goods/Unsolved/returned_goods.py
-  851  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Returned_Goods/Unsolved/returned_goods.py
-  852  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  853  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  854  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  855  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  856  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  857  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  858  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
-  859  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  860  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  861  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  862  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  863  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  864  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  865  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/iterables.py
-  866  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/iterables.py
-  867  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/finance_iterable.py
-  868  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
-  869  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
-  870  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
-  871  python
-  872  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
-  873  cd ..
-  874  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
-  875  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
-  876  cd 02_Pathways_to_Success_Part_1
-  877  cd Unsolved
-  878  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
-  879  cd ..
-  880  cd ..
-  881  cd 03_Pathways_to_Success_Part_2
-  882  cd Unsolved
-  883  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
-  884  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
-  885  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
-  886  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
-  887  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
-  888  cd ..
-  889  cd ..
-  890  cd 04_Automating_Equity_Rounds/Unsolved
-  891  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
-  892  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
-  893  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
-  894  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
-  895  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  896  cd ..
-  897  cd ..
-  898  cd Challenges/Module 1/Starter_Code
-  899  cd Challenges/Module_1/Starter_Code
-  900  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  901  /usr/local/bin/python3 "/Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module 1/Starter_Code/loan_analyzer.py"
-  902  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_1/Starter_Code/loan_analyzer.py
-  903  git --version
-  904  git config --list
-  905  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  906  git clone https://github.com/zcor/uw-fintech-22.git
-  907  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  908  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  909  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  910  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  911  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  912  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  913  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  914  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  915  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  916  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  917  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  918  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/01_Ins_Variables/Unsolved/variables.py
-  919  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/02_Stu_Percent_Increase/Unsolved/percent_increase.py
-  920  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/02_Stu_Percent_Increase/Unsolved/percent_increase.py
-  921  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/02_Stu_Percent_Increase/Unsolved/percent_increase.py
-  922  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Class_1_Activities/05_Ins_Dictionaries/Solved/dicts.py
-  923  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/Python_Project/hello_python.py
-  924  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/01_Hello_Variable_World/Unsolved/hello_variable_world_solved.py
-  925  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/01_Hello_Variable_World/Unsolved/hello_variable_world_solved.py
-  926  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/01_Hello_Variable_World/Unsolved/hello_variable_world_solved.py
-  927  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/01_Hello_Variable_World/Unsolved/hello_variable_world_solved.py
-  928  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/01_Hello_Variable_World/Unsolved/hello_variable_world_solved.py
-  929  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/01_Hello_Variable_World/Unsolved/hello_variable_world_solved.py
-  930  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/02_Listing_Assets/Unsolved/listing_assets.py
-  931  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  932  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  933  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  934  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  935  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  936  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  937  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  938  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/Fintech_Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
-  939  cd ..
-  940  ls
-  941  cd ..
-  942  ls
-  943  cd git
-  944  ls
-  945  cd ..
-  946  mkdir existing_repo
-  947  cd existing_repo
-  948  git remote add origin https://uwa.bootcampcontent.com/UWA-Bootcamp/UW-VIRT-FIN-PT-05-2022-U-B.git
-  949  cd ..
-  950  ls
-  951  cd git_practice
-  952  git remote add origin https://uwa.bootcampcontent.com/UWA-Bootcamp/UW-VIRT-FIN-PT-05-2022-U-B.git
-  953  git branch -M main
-  954  git push -uf origin main
-  955  ls
-  956  git status
-  957  cd ..
-  958  conda create -n dev python=3.9 anaconda
-  959  conda activate dev
-  960  echo ${SHELL}
-  961  conda init zsh
-  962  conda deactivate
-  963  pwd
-  964  ls
-  965  cd Desktop
-  966  pwd
-  967  ls
-  968  mkdir Fintech_Workspace
-  969  cd Fintech_Workspace
-  970  ls
-  971  pwd
-  972  cd Python_Project
-  973  python3 hello_python.py
-  974  conda activate dev
-  975  python --version
-  976  code .
-  977  python hello_python.py
-  978  conda deactivate
-  979  cd ..
-  980  ls
-  981  code .
-  982  conda activate dev
-  983  conda deactivate
-  984  zsh --version
-  985  upgrade_oh_my_zsh
-  986  ls
-  987  conda activate dev
-  988  pip -v
-  989  pip freeze
-  990  pip install fire
-  991  pip install questionary
-  992  xcode-select --install
-  993  brew --version
-  994  xcode --version
-  995  xcode-select --version
-  996  brew cask install iterm2
-  997  brew install iterm2 --cask
-  998  zsh --version
-  999  brew install zsh
  1000  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
  1001  conda activate dev
  1002  cd desktop
@@ -1327,39 +377,39 @@
  1376  git commit -m "Added Starter files as well as an Images folder with first screenshot."
  1377  git commit
  1378  git push
- 1379* conda activate dev
- 1380* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1379  conda activate dev
+ 1380  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
  1381  git status
  1382  git add app.py
  1383  git status
  1384  git commit -m "Updated to write qualifying bank loans to a CSV file in the data folder."
  1385  git push
- 1386* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1386  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
  1387  git status
  1388  git add app.py
  1389  git commit -m "Created save_csv in separate function instead of writing it under the pre-created save_qualifying_loans function"
  1390  git push
- 1391* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1391  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
  1392  git status
  1393  git add app.py
  1394  git add qualifier/utils/fileio.py
  1395  git status
  1396  git commit -m "Moved save_csv function to FileIO module.  Updated app.py to import save_csv."
  1397  git push
- 1398* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
- 1399* ? pathlib
- 1400* pathlib ?
- 1401* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1398  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1399  ? pathlib
+ 1400  pathlib ?
+ 1401  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
  1402  git status
  1403  git commit -m "Updated CLI for usability and user-named output files."
  1404  git add app.py
  1405  git status
  1406  git commit -m "Updated CLI for usability and user-named output files."
  1407  git push
- 1408* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
- 1409* 10000
- 1410* 100000
- 1411* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1408  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1409  10000
+ 1410  100000
+ 1411  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
  1412  git status
  1413  git add README.md
  1414  git add app.py
@@ -1371,4 +421,245 @@
  1420  git commit -m "Cleaned coding up a bit, added comments and update README"
  1421  git push
  1422  history 50 > terminal_history.txt
- 
+ 1423  ls
+ 1424  history 50 > vscode_terminal_history
+ 1425  history 50 < vscode_terminal_history
+ 1426  history 50 < vscode_terminal_history.txt
+ 1427  history 50 > terminal_history.txt
+ 1428  git status
+ 1429  git add terminal_history.txt
+ 1430  git commit -m "adding terminal history text file"
+ 1431  git push
+ 1432  clear
+ 1433  cd ..
+ 1434  git --version
+ 1435  git config --list
+ 1436  cd first_repo
+ 1437  mkdir first_repo
+ 1438  cd first_repo
+ 1439  touch index.html
+ 1440  subl index.html
+ 1441  git init
+ 1442  git status
+ 1443  git add .
+ 1444  git status
+ 1445  git commit -m "hello world"
+ 1446  git remote add origin git@github.com:jasonbucks/first_repo.git
+ 1447  git push -u origin master
+ 1448  git status
+ 1449  touch readme.md
+ 1450  git status
+ 1451  git add -A
+ 1452  git status
+ 1453  git restore --staged readme.md
+ 1454  git status
+ 1455  git add .
+ 1456  git status
+ 1457  git commit -m "h2"
+ 1458  git push
+ 1459  git remote -v
+ 1460  cd ..
+ 1461  cd Class_1_Activities
+ 1462  ls
+ 1463  code .
+ 1464  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py
+ 1465  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/02-lists-01/Unsolved/lists-01.py
+ 1466  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/03-dicts-01/Unsolved/dicts-01.py
+ 1467  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+ 1468  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+ 1469  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/06-loops-01/Unsolved/loops-01.py
+ 1470  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+ 1471  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/08-functions-02/Unsolved/functions-02.py
+ 1472  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/09-csv-01/Unsolved/csv-01.py
+ 1473  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+ 1474  cd 05_Stu_ATM_Modularization
+ 1475  cd Unsolved/atm
+ 1476  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/05_Stu_ATM_Modularization/Unsolved/atm/atm.py
+ 1477  conda activate atmdev
+ 1478  conda info --envs
+ 1479  conda create -n atmdev
+ 1480  conda activate atmdev
+ 1481  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/05_Stu_ATM_Modularization/Unsolved/atm/atm.py
+ 1482  cd ..
+ 1483  conda activate dev
+ 1484  conda list pandas
+ 1485  conda list jupyterlab
+ 1486  conda info --envs
+ 1487  conda remove --name atmdev
+ 1488  conda remove --name atmdev --all
+ 1489  conda info --envs
+ 1490  conda deactivate
+ 1491  conda update conda
+ 1492  conda update anaconda
+ 1493  conda activate dev
+ 1494  conda deactivate
+ 1495  conda info --envs
+ 1496  conda activate dev
+ 1497  conda list pandas
+ 1498  conda list jupyterlab
+ 1499  conda list
+ 1500  conda deactivate
+ 1501  conda activate dev
+ 1502  python -m ipykernel --user --name dev --display-name "Python (dev)"
+ 1503  jupyter lab
+ 1504  conda deactivate
+ 1505  cd Class_1_Activities
+ 1506  ls
+ 1507  code .
+ 1508  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+ 1509  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/05_Stu_ATM_Modularization/Unsolved/atm/atm.py
+ 1510  cd 05_Stu_ATM_Modularization
+ 1511  cd Unsolved/atm
+ 1512  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_1_Activities/05_Stu_ATM_Modularization/Unsolved/atm/atm.py
+ 1513  cd ..
+ 1514  cd Class_2_Activities
+ 1515  conda activate dev
+ 1516  jupyter lab
+ 1517  conda deactivate
+ 1518  ls
+ 1519  cd 02_Stu_Build_ATM_Functions
+ 1520  ls
+ 1521  cd Unsolved
+ 1522  ls
+ 1523  conda create -n atmdev python=3.7 anaconda
+ 1524  conda activate atmdev
+ 1525  pip install -r requirements.txt
+ 1526  code .
+ 1527  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_2_Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/atm.py
+ 1528  conda activate atmdev
+ 1529  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_2_Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/atm.py
+ 1530  cd atm
+ 1531  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_2_Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/utils.py
+ 1532  123456
+ 1533  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_2_Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/atm.py
+ 1534  pip install -r pytest==5.4.2
+ 1535  pip install pytest==5.4.2
+ 1536  cd ..
+ 1537  cd 03_Stu_Create_Github_Repository
+ 1538  ls
+ 1539  code .
+ 1540  git clone git@github.com:jasonbucks/Mod2Class2Exer3.git
+ 1541  cd Mod2Class2Exer3
+ 1542  git status
+ 1543  git add README.md
+ 1544  git add atm/*
+ 1545  git status
+ 1546  git commit -m "adding copied atm files"
+ 1547  git push
+ 1548  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_2_Activities/03_Stu_Create_Github_Repository/Mod2Class2Exer3/atm/atm.py
+ 1549  cd Mod2Class2Exer3
+ 1550  ls
+ 1551  cd atm
+ 1552  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Class_2_Activities/03_Stu_Create_Github_Repository/Mod2Class2Exer3/atm/atm.py
+ 1553  git status
+ 1554  git add README.md
+ 1555  git add atm/screenshot.png
+ 1556  git status
+ 1557  git commit -m "added cli screenshot to README"
+ 1558  git push
+ 1559  cd ..
+ 1560  cd Challenges
+ 1561  cd Module_2
+ 1562  ls
+ 1563  conda deactivate
+ 1564  conda activate dev
+ 1565  code .
+ 1566  /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1567  git stat
+ 1568  git status
+ 1569  git add app.py
+ 1570  git status
+ 1571  git commit -m "updated questionary from 'text' to 'select'"
+ 1572  git push
+ 1573  cd ..
+ 1574  cd 01_Import_Data
+ 1575  jupyter lab
+ 1576  ls
+ 1577  python sales_data.py
+ 1578  python
+ 1579  cd ..
+ 1580  ls
+ 1581  cd 01_Importing_the_VIX
+ 1582  ls
+ 1583  jupyter lab
+ 1584  cd ..
+ 1585  cd 02_Fix_Column_Headers
+ 1586  jupyter lab
+ 1587  cd ..
+ 1588  cd 02_Headerless_Horsemen
+ 1589  jupyter lab
+ 1590  cd ..
+ 1591  cd 03_Fix_Rows
+ 1592  jupyter lab
+ 1593  cd Desktop
+ 1594  cd FinTech_Workspace
+ 1595  cd 03_Fix_Rows
+ 1596  ls
+ 1597  conda activate dev
+ 1598  jupyter lab
+ 1599  cd ..
+ 1600  cd 03_IPO_Excitement
+ 1601  jupyter lab
+ 1602  cd ..
+ 1603  cd 01-Missing_Data
+ 1604  ls
+ 1605  jupyter lab
+ 1606  cd ..
+ 1607  cd 01_Missing_Money
+ 1608  jupyter lab
+ 1609  cd ..
+ 1610  mkdir Mod_2_Class_2
+ 1611  cd Mod_2_Class_2
+ 1612  git clone git@github.com:zcor/uw-fintech-22.git
+ 1613  ls
+ 1614  cd uw-fintech-22/Activities
+ 1615  ls
+ 1616  cd 02-Financial-Applications-Python
+ 1617  cd 2
+ 1618  ls
+ 1619  cd Activities/
+ 1620  ls
+ 1621  code .
+ 1622* conda activate atmdev
+ 1623* cd 02_Stu_Build_ATM_Functions
+ 1624* cd Unsolved
+ 1625* cd atm
+ 1626* ls
+ 1627* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Mod_2_Class_2/uw-fintech-22/Activities/02-Financial-Applications-Python/2/Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/atm.py
+ 1628* ls
+ 1629* cd 02_Stu_Build_ATM_Functions
+ 1630* cd Unsolved
+ 1631* cd atm
+ 1632* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Mod_2_Class_2/uw-fintech-22/Activities/02-Financial-Applications-Python/2/Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/atm.py
+ 1633* conda list
+ 1634* conda activate atmdev
+ 1635* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Mod_2_Class_2/uw-fintech-22/Activities/02-Financial-Applications-Python/2/Activities/02_Stu_Build_ATM_Functions/Unsolved/atm/atm.py
+ 1636  cd ..
+ 1637  git clone git@github.com:jasonbucks/ATM.git
+ 1638  git status
+ 1639  ls
+ 1640  git clone git@github.com:jasonbucks/ATM.git
+ 1641  cd ATM
+ 1642  git status
+ 1643  touch testfile.txt
+ 1644  ls
+ 1645  git status
+ 1646  git add .
+ 1647  git status
+ 1648  git commit -m "add testfile.txt"
+ 1649  git push
+ 1650  cd ..
+ 1651  cd 02_Dollars_and_Change
+ 1652  jupyter lab
+ 1653  cd ..
+ 1654  cd Challenges
+ 1655  cd Module_2
+ 1656  code .
+ 1657  python
+ 1658* /usr/local/bin/python3 /Users/jasonbuckholt/Desktop/FinTech_Workspace/Challenges/Module_2/app.py
+ 1659  git status
+ 1660  git add app.py
+ 1661  git status
+ 1662  git commit -m "allow user to fix input errors without having to restart"
+ 1663  git push
+ 1664  terminal 1000 > terminal_history.txt
