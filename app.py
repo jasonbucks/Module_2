@@ -46,17 +46,71 @@ def get_applicant_info():
         Returns the applicant's financial information.
     """
 
-    credit_score = questionary.text("What's your credit score?").ask()
-    debt = questionary.text("What's your current amount of monthly debt?").ask()
-    income = questionary.text("What's your total monthly income?").ask()
-    loan_amount = questionary.text("What's your desired loan amount?").ask()
-    home_value = questionary.text("What's your home value?").ask()
+    # Credit score must be non-negative integer.  Continue asking until one is supplied.
+    # Technically, credit score should be between 300 and 850, but this range will not be enforced here.
+    while True:
+        try:
+            credit_score = questionary.text("What's your credit score?").ask()
+            credit_score = int(credit_score)
+            if credit_score >= 0:
+                break
+            else:
+                print("Oops! Credit score must be a non-negative integer...")
+        except ValueError:
+            print("Credit score must be an integer...")
+            continue
+    
+    # Amount of monthly debt must be non-negative number  Continue asking until one is supplied.
+    while True:
+        try:
+            debt = questionary.text("What's your current amount of monthly debt?").ask()
+            debt = float(debt)
+            if debt >= 0:
+                break
+            else:
+                print("Oops! Debt amount must be non-negative...")
+        except ValueError:
+            print("Debt amount must be a number...")
+            continue
 
-    credit_score = int(credit_score)
-    debt = float(debt)
-    income = float(income)
-    loan_amount = float(loan_amount)
-    home_value = float(home_value)
+    # Amount of monthly income must be a positive number  Continue asking until one is supplied.
+    while True:
+        try:
+            income = questionary.text("What's your total monthly income?").ask()
+            income = float(income)
+            if income > 0:
+                break
+            else:
+                print("Oops! Income amount must be positive...")
+        except ValueError:
+            print("Income amount must be a number...")
+            continue
+    
+    # Amount of loan requested must be a positive number  Continue asking until one is supplied.
+    while True:
+        try:
+            loan_amount = questionary.text("What's your desired loan amount?").ask()
+            loan_amount = float(loan_amount)
+            if loan_amount > 0:
+                break
+            else:
+                print("Oops! Loan amount must be positive...")
+        except ValueError:
+            print("Loan amount must be a number...")
+            continue
+
+    # Home value must be a positive number  Continue asking until one is supplied.
+    while True:
+        try:
+            home_value = questionary.text("What's your home value?").ask()
+            home_value = float(home_value)
+            if home_value > 0:
+                break
+            else:
+                print("Oops! Home value must be positive...")
+        except ValueError:
+            print("Home value must be a number...")
+            continue 
 
     return credit_score, debt, income, loan_amount, home_value
 
